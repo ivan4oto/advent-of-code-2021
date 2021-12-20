@@ -10,7 +10,7 @@ def read_input():
 
 
 def part_one(input):
-    result = [i for i in range(1, len(input)) if input[i] > input[i-1]] 
+    result = [i for i in range(1, len(input)) if input[i] > input[i-1]]
     return len(result)
 
 
